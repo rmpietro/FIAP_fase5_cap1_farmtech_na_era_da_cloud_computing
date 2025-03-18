@@ -1,0 +1,7 @@
+*.csv
+*.tsv
+*.xls
+*.xlsx
+.idea/
+src/dashboard/__pycache__/
+src/__pycache__/
