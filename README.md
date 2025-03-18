@@ -1,1 +1,0 @@
-# FIAP_fase5_cap1_farmtech_na_era_da_cloud_computing
