@@ -72,7 +72,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🗃 Histórico de lançamentos
 
-* 0.1.0 - 13/11/2024
+* 0.1.0 - 17/03/2025
 
 ## 📋 Licença
 
