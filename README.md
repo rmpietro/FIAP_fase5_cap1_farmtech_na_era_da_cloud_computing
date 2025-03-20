@@ -26,34 +26,42 @@
 
 ## 📜 Descrição
 
+### Entrega 1: Jupiter Notebook feito no Google Colab
+
+Todo o passo a passo e explicações estão presentes no Notebook do Google Colab
+Link para o Google Colab direto na página no arquivo ipynb
+#### Link para o vídeo de apresentação do projeto: <a href="https://youtu.be/OlavgIEvXwE">Video não listado no Youtube</a>
+---
+
+### Entrega 2: 
 Este documento apresenta a análise de custos da AWS para hospedar nossa API de Machine Learning em duas regiões: US East (N. Virginia) e South America (São Paulo). Os cálculos foram feitos com a AWS Pricing Calculator, considerando uma instância EC2 e 50 GB de armazenamento (HD), conforme exigido pelo enunciado do projeto.
 
-## 📂 Configuração Utilizada
+#### 📂 Configuração Utilizada
 - **Instância:** t4g.micro (ARM, opção mais econômica)
 - **Sistema Operacional:** Linux
 - **2 vCPUs, 1 GiB RAM**
 - **Armazenamento:** 50 GB HDD (sc1)
 - **On-Demand (100%)**
 
-## 📊 Comparação de Custos
+#### 📊 Comparação de Custos
 | Região                  | Custo Mensal (USD) | Custo Anual (USD) |
 |------------------------|------------------|------------------|
 | **US East (N. Virginia)**  | **$6.88**  | **$82.56**  |
 | **South America (São Paulo)** | **$11.22**  | **$134.64**  |
 
-## 📈 Análise e Insights
+#### 📈 Análise e Insights
 - **O custo em São Paulo é 63% maior do que em N. Virginia.**
 - **A escolha de N. Virginia gera uma economia anual de $52.08 USD.**
 - **Se não houver restrições legais, a hospedagem em N. Virginia é a melhor opção.**
 - **Caso haja exigências para armazenamento no Brasil, o custo será consideravelmente mais alto.**
 
-## 📉 Gráficos Comparativos
+#### 📉 Gráficos Comparativos
 Aqui estão as representações visuais dos custos analisados:
 
 ![Comparação de Custos Mensais](assets/comparacao_mensal.png)
 ![Comparação de Custos Anuais](assets/comparacao_anual.png)
 
-### Link YouTube demonstrando funcionamento do projeto
+#### Link YouTube demonstrando funcionamento do projeto
 - [Link para o vídeo não-listado](https://www.youtube.com/watch?v=I56b1w4DSRA)
 
 
